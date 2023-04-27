@@ -1,0 +1,8 @@
+---
+- name: Fail Immediately Playbook
+  hosts: localhost
+
+  tasks:
+    - name: Fail task
+      ansible.builtin.fail:
+        msg: "This task will fail immediately."
