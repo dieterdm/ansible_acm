@@ -1,0 +1,8 @@
+---
+- name: Fail Immediately Playbook
+  hosts: localhost
+
+  tasks:
+    - name: Execute debug command
+      debug:
+        var: "{{ vars }}"
