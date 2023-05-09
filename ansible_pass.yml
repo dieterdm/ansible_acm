@@ -5,4 +5,4 @@
   tasks:
     - name: Execute debug command
       debug:
-        var: "{{ vars }}"
+        msg: "{{ hostvars['localhost' }}"
